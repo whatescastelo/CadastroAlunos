@@ -1,0 +1,15 @@
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\bin\Debug\net6.0\CadastroAlunos.exe
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\bin\Debug\net6.0\CadastroAlunos.deps.json
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\bin\Debug\net6.0\CadastroAlunos.runtimeconfig.json
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\bin\Debug\net6.0\CadastroAlunos.dll
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\bin\Debug\net6.0\CadastroAlunos.pdb
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\CadastroAlunos.csproj.AssemblyReference.cache
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\CadastroAlunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\CadastroAlunos.AssemblyInfoInputs.cache
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\CadastroAlunos.AssemblyInfo.cs
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\CadastroAlunos.csproj.CoreCompileInputs.cache
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\CadastroAlunos.dll
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\refint\CadastroAlunos.dll
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\CadastroAlunos.pdb
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\CadastroAlunos.genruntimeconfig.cache
+C:\Users\wtcas\OneDrive\Documentos\Programas c#\ExemploDIO\CadastroAlunos\obj\Debug\net6.0\ref\CadastroAlunos.dll
