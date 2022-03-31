@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\Revisao\\Revisao.csproj": {}
+    "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\CadastroAlunos\\CadastroAlunos\\CadastroAlunos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\Revisao\\Revisao.csproj": {
+    "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\CadastroAlunos\\CadastroAlunos\\CadastroAlunos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\Revisao\\Revisao.csproj",
-        "projectName": "Revisao",
-        "projectPath": "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\Revisao\\Revisao.csproj",
+        "projectUniqueName": "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\CadastroAlunos\\CadastroAlunos\\CadastroAlunos.csproj",
+        "projectName": "CadastroAlunos",
+        "projectPath": "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\CadastroAlunos\\CadastroAlunos\\CadastroAlunos.csproj",
         "packagesPath": "C:\\Users\\wtcas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\Revisao\\obj\\",
+        "outputPath": "C:\\Users\\wtcas\\OneDrive\\Documentos\\Programas c#\\ExemploDIO\\CadastroAlunos\\CadastroAlunos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wtcas\\AppData\\Roaming\\NuGet\\NuGet.Config"
