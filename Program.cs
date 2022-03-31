@@ -1,14 +1,32 @@
 ﻿using System;
 
-namespace CadastroAlunos{
-    class Program{
+namespace CadastroAlunos
+{
+    class Program
+    {
         static void Main(string[] args)
         {
             string opcaoUsuario = ObterOpcaoUsuario();
 
-            
+            while((opcaoUsuario != "X") || (opcaoUsuario != "x"))
+            {
+                switch(opcaoUsuario)
+                {
+                    case "1":
 
-            opcaoUsuario = Console.ReadLine();
+                        break;
+                    case "2":
+
+                        break;
+                    case "3":
+
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+
+                opcaoUsuario = ObterOpcaoUsuario();
+            }
 
         }
 
