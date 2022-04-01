@@ -34,7 +34,14 @@ namespace CadastroAlunos
 
                         break;
                     case "2":
-
+                        foreach(var a in alunos)
+                        {
+                            if(!string.IsNullOrEmpty(a.Nome))
+                            {
+                                Console.WriteLine($"ALUNO: {a.Nome}\nNOTA: {a.Nota}\n");
+                            }
+                            
+                        }
                         break;
                     case "3":
 
