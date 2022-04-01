@@ -6,6 +6,8 @@ namespace CadastroAlunos
     {
         static void Main(string[] args)
         {
+            Aluno[] alunos = new Aluno[5];
+            int indiceAluno = 0;
             string opcaoUsuario = ObterOpcaoUsuario();
 
             while((opcaoUsuario != "X") || (opcaoUsuario != "x"))
@@ -13,6 +15,22 @@ namespace CadastroAlunos
                 switch(opcaoUsuario)
                 {
                     case "1":
+                        Console.WriteLine("NOME DO ALUNO: ");
+                        Aluno aluno = new Aluno();
+                        aluno.Nome = Console.ReadLine();
+
+                        Console.WriteLine("NOTA DO ALUNO: ");
+                        
+                        if(decimal.TryParse(Console.ReadLine(), out decimal nota))
+                        {
+                            aluno.Nota = nota;
+                        }else
+                        {
+                            throw new ArgumentException("O valor da nota deve ser decimal.");
+                        }
+
+                        alunos[indiceAluno] = aluno;
+                        indiceAluno++;
 
                         break;
                     case "2":
@@ -37,8 +55,10 @@ namespace CadastroAlunos
             Console.WriteLine("2 - Listar alunos.");
             Console.WriteLine("3 - Calcular média geral.");
             Console.WriteLine("X - Sair.");
+            Console.WriteLine();
 
             string opcaoUsuario = Console.ReadLine();
+            Console.WriteLine();
             return opcaoUsuario;
         }
     }
