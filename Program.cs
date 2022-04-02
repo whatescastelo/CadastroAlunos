@@ -15,7 +15,7 @@ namespace CadastroAlunos
                 switch(opcaoUsuario)
                 {
                     case "1":
-                        Console.WriteLine("NOME DO ALUNO: ");
+                        Console.WriteLine("\nNOME DO ALUNO: ");
                         Aluno aluno = new Aluno();
                         aluno.Nome = Console.ReadLine();
 
@@ -34,17 +34,32 @@ namespace CadastroAlunos
 
                         break;
                     case "2":
+                     
                         foreach(var a in alunos)
                         {
                             if(!string.IsNullOrEmpty(a.Nome))
                             {
                                 Console.WriteLine($"ALUNO: {a.Nome}\nNOTA: {a.Nota}\n");
+                                
                             }
                             
                         }
                         break;
                     case "3":
-
+                        decimal notaTotal = 0;
+                        int n = 0;
+                        foreach(var a in alunos)
+                        {
+                            if(!string.IsNullOrEmpty(a.Nome))
+                            {
+                                notaTotal = notaTotal + a.Nota;
+                                n++;
+                            }
+                            
+                        }
+                        var media = notaTotal / n;
+                        Console.WriteLine($"MÉDIA GERAL: {media}\n");
+                        
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
@@ -57,7 +72,7 @@ namespace CadastroAlunos
 
         private static string ObterOpcaoUsuario()
         {
-            Console.WriteLine("DIGITE A OPÇÃO DESEJADA:");
+            Console.WriteLine("\nDIGITE A OPÇÃO DESEJADA:");
             Console.WriteLine("1 - Inserir novo aluno.");
             Console.WriteLine("2 - Listar alunos.");
             Console.WriteLine("3 - Calcular média geral.");
