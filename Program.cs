@@ -59,6 +59,27 @@ namespace CadastroAlunos
                         }
                         var media = notaTotal / n;
                         Console.WriteLine($"MÉDIA GERAL: {media}\n");
+
+                        Conceito conceitoGeral;
+
+                        if(media < 3)
+                        {
+                            conceitoGeral = Conceito.E;
+                        }else if (media < 6)
+                        {
+                            conceitoGeral = Conceito.D;
+                        }else if (media < 7)
+                        {
+                            conceitoGeral = Conceito.C;
+                        }else if (media < 8)
+                        {
+                            conceitoGeral = Conceito.B;
+                        }else if (media < 9)
+                        {
+                            conceitoGeral = Conceito.A;
+                        }
+
+                        Console.WriteLine($"Conceito: {conceitoGeral}");
                         
                         break;
                     default:
